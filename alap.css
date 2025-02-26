@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+html {
+	color: white;
+	background-image: url(../media/background.png);
+	background-repeat: repeat;
+	min-width: 320px;
+}
+
+body {
+	background-color: #707070;
+	width: 80%;
+	padding: 0 20px 20px 20px;
+	margin: 20px auto;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 2px solid yellow;
+	border-radius: 10px;
+}
+
+header, #header {
+	background-image: url(../media/headerBackground.png);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-size: cover;
+	background-color: #FF2800;
+	margin:0px -20px;
+	padding: 15px 10px 15px 0;
+	border-bottom: 5px solid #303030;
+	border-radius:10px 10px 0 0;
+	font-size: 1.5em;
+	overflow: hidden;
+}
+
+
+main, #tartalom {
+	padding: 20px 20px 50px 20px;
+	text-align: justify;
+	width: 80%;
+	margin: auto;
+	line-height: 150%;
+}
+
+footer, #footer {
+	background-color: #303030;
+	border-radius: 0 0 10px 10px;
+	border-top: 2px solid yellow;
+	margin: 0 -20px -20px -20px;
+	padding: 20px;
+	min-height: 30px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Trade Winds', cursive;
+	font-variant: small-caps;
+	text-align: center;
+	width: 50%;
+	margin: 10px auto;
+	padding: 20px;
+	background-color: black;
+	opacity: 0.8;
+	min-width: 200px;
+}
+
+nav#fomenu, .nav#fomenu {
+	color: white;
+	background-color: black;
+	opacity: 0.8;
+	max-width: 710px;
+	padding: 10px;
+	margin: 100px auto 0 0;
+	border-radius: 0 25px 25px 0;
+}
+
+header>nav#fomenu a:link, #header>.nav#fomenu a:link {
+	color: white;
+	text-decoration: underline;
+}
+
+header>nav#fomenu a:visited, #header>.nav#fomenu a:visited {
+	color: white;
+	text-decoration: underline;
+}
+
+header>nav#fomenu a, header>nav#fomenu b, #header>.nav#fomenu a, #header>.nav#fomenu b {
+	margin-right: 40px;
+}
+
+
+h2 {
+	color: lightyellow;
+	font-variant: small-caps;
+}
+
+p {
+	color: lightgray;
+}
+
+hr {
+	border: 1px solid yellow;
+	margin: 40px 0;
+}
+
+figure, .figure {
+	border: 2px solid yellow;
+	border-radius: 3px;
+	background-image: url(../media/checkeredFlag.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #8A8A8A;
+	text-align: center;
+	width: 250px;
+	margin: 20px 60px 0 0;
+	float: left;
+}
+
+figcaption, .figcaption {
+	color: black;
+	background-color: #8A8A8A;
+	text-align: center;
+	margin: 0 20px 10px 20px;
+	border: 1px solid yellow;
+}
+
+div.car {
+	display: block;
+	height: 270px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+div.car p {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carArticle {
+	text-align: center;
+}
+
+.carArticle p {
+	font-size: 1.2em;
+	margin-right: 43%;
+	text-align: justify;
+}
+
+.carPic {
+	width: 90%;
+	margin: 20px auto;
+	border: 2px solid #FF2800;
+}
+
+aside {
+	text-align: left;
+	float: right;
+	margin-left: 20px;
+	width: 40%;
+}
+
+table {
+	width: 100%;
+}
+
+table#vilagbajnokok, caption {
+	color: black;
+	width: 80%;
+	margin: 20px auto;
+}
+
+caption strong{
+	color: lightyellow;
+	font-size: 1.4em;
+}
+
+details {
+	color: lightyellow;
+	padding: 10px;
+	height: auto;
+	transition: height 0.6s, background 0.6s, color 0.6s;
+}
+details[open] {
+	color: black;
+	background-color: #8A8A8A;
+	height: auto;
+}
+
+details p {
+	color: black;
+	font-size: 1.2em;
+}
+
+table td, table th {
+	color: black;
+	border: 1px solid black;
+	background-color: lightyellow;
+	padding: 5px
+}
+
+table th[scope=col] {
+	color: yellow;
+	background-color: #FF2800;
+	text-align: center;
+}
+
+details {
+	font-size: 0.8em;
+	line-height: 2em;
+}
+
+.split {
+	column-count: 2;
+	column-gap: 50px;
+}
+
+article p, .article p {
+	margin: 0 0 20px 0;
+}
+
+div#forma1elottSV, div#forma1elottCL {
+	column-count: 1;
+	height: auto;
+	margin: 30px 0;
+	position: relative;
+}
+
+div#forma1elottSV p, div#forma1elottCL p{
+	position: absolute;
+	top: 70px;
+	left: 310px;
+}
+
+video, #video {
+	width: 100%;
+}
+
+#videoLeiras {
+	text-align: center;
+}
+
+#videoLeiras p {
+	margin: 10px;
+}
+
+form {
+	margin: 0 auto;
+}
+
+form fieldset {
+	font-size: 1.2em;
+	background-color: #8A8A8A;
+	border: 1px dashed yellow;
+	border-radius: 0 0 5px 5px;
+}
+
+form>fieldset legend {
+	font-size: 2em;
+}
+
+fieldset>fieldset legend {
+	font-size: 1.5em;
+}
+
+fieldset fieldset {
+	border: 1px solid yellow;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+}
+
+input, textarea {
+	margin: 10px;
+}
+
+nav#tartalomraugras a, .nav#tartalomraugras a{
+	position:absolute;
+	left:-9999px
+
+}
+
+nav#tartalomraugras a:focus, .nav#tartalomraugras a:focus {
+	position:static;
+	background-color:white
+}
+
+a#alap, a#nagybetus {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	padding: 10px;
+	font-size: 1.4em;
+	color: lightyellow;
+	background-color: #505050;
+	border: 2px solid #303030;
+	z-index: 1;
+}
+
+a#alap {
+	display: none;
+}
+
+a#nagybetus {
+	display: block;
+}
+
+.pilota {
+	margin-top: 20px;
+	border: 2px solid red;
+}
+
+.pilota:hover {
+	border-color: yellow;
+}
+
+.gomb {
+	width: 200px;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 1.3em;
+}
+
+footer a, #footer a {
+	display: block;
+}
+
+footer a:link, #footer a:link, main a:link, #tartalom a:link {
+	color: yellow;
+	margin: 3px 0;
+}
+
+footer a:visited, #footer a:visited, main a:visited, #tartalom a:visited {
+	color: orange;
+}
+
+footer a:first-child, #footer a:first-child {
+	margin-top: 6px;
+}
+
+footer a:last-child, #footer a:last-child {
+	margin-bottom: 6px;
+}
+
+.toTop {
+	float: right;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+	body {
+		width: 94%;
+	}
+
+	table#vilagbajnokok {
+		width: 100%;
+	}
+
+	article.carArticle div.car {
+		position: static;
+		display: block;
+		height: auto;
+	}
+
+	div.car aside {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+
+	div.car p {
+		position: static;
+		top: 0%;
+		transform: none;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	#tartalom {
+		width: 90%;
+	}
+
+	article, .article, div.split {
+		column-count: initial;
+	}
+
+	div#forma1elottSV, div#forma1elottCL {
+		column-count: initial;
+		height: auto;
+	}
+
+	div#forma1elottSV p, div#forma1elottCL p {
+		position: static;
+		display: block;
+	}
+
+	figure {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	body {
+		width: 100%;
+		border-left: unset;
+		border-right: unset;
+		border-radius: 0;
+	}
+
+	header, #header {
+		border-radius: 0;
+	}
+
+	header nav#fomenu, #header div.nav#fomenu {
+		width: 300px;
+	}
+
+	header>nav a, header>nav b, #header>div.nav a, #header>div.nav b {
+		display: block;
+		margin: 20px 0;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	body {
+		padding: 0;
+	}
+
+	header, #header {
+		padding: 10px 0;
+		width: 100%;
+		margin: 0;
+	}
+
+	#tartalom {
+		padding: 1%;
+		width: 98%;
+	}
+
+	footer, #footer {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 425px) {
+    textarea {
+        width: 200px;
+    }
+}
+
+@media print {
+	body {
+		width: 100%;
+		font-family: 'Times New Roman', Times, serif;
+		margin: 3cm;
+		max-width: unset;
+		margin: 0 auto;
+		border: none;
+	}
+
+	footer, #footer {
+		border-color: black;
+	}
+	
+	nav, .nav, video, #video {
+		display:none;
+	}
+	
+	a:not(.bigPic):after 
+		{content: ' (' attr(href) ')';
+	}
+
+	figure, figcaption {
+		border-width: 0;
+	}
+
+	article, .article, article.split {
+		column-count: initial;
+	}
+
+	div#forma1elottSV, div#forma1elottCL {
+		column-count: initial;
+		height: auto;
+	}
+
+	div#forma1elottSV p, div#forma1elottCL p {
+		position: static;
+		display: block;
+	}
+
+	figure {
+		float: none;
+		width: 100%;
+	}
+
+	hr {
+		border-color: black;
+	}
+
+	article.carArticle {
+		page-break-before: always;
+	}
+
+	article.carArticle:first-child {
+		page-break-before: avoid;
+	}
+
+	table#vilagbajnokok {
+		width: 100%;
+	}
+
+	form fieldset {
+		border: 1px solid black;
+	}
+
+	fieldset fieldset {
+		display: none;
+	}
+}
+
+/*Ez azért van, hogy ne legyen olyan, hogy a headerben a logó csak félig látszik*/
+@media screen and (max-width: 730px), screen and (min-width: 2001px) {
+	header, #header {
+		background-image: unset;
+	}
+}
+
+/*A pilotak.html bekezdések egymásbamosódását megakadályozó stílusok*/
+@media screen and (min-width: 1235px) and (max-width: 1341px) {
+	div#forma1elottCL {
+		height: 280px;
+	}
+
+	div#forma1elottCL figure {
+		margin-top: 35px;
+	}
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1323px) {
+	div#forma1elottSV {
+		height: 280px;
+	}
+
+	div#forma1elottSV figure {
+		margin-top: 35px;
+	}
+}
+
+@media screen and (min-width: 1154px) and (max-width: 1234px) {
+	div#forma1elottCL {
+		height: 305px;
+	}
+
+	div#forma1elottCL figure {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (min-width: 1168px) and (max-width: 1219px) {
+	div#forma1elottSV {
+		height: 305px;
+	}
+
+	div#forma1elottSV figure {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (min-width: 1117px) and (max-width: 1167px) {
+	div#forma1elottSV {
+		height: 340px;
+	}
+
+	div#forma1elottSV figure {
+		margin-top: 65px;
+	}
+}
+
+@media screen and (min-width: 1146px) and (max-width: 1153px) {
+	div#forma1elottCL {
+		height: 340px;
+	}
+
+	div#forma1elottCL figure {
+		margin-top: 65px;
+	}
+}
+
+@media screen and (min-width: 1054px) and (max-width: 1145px) {
+	div#forma1elottCL {
+		height: 365px;
+	}
+
+	div#forma1elottCL figure {
+		margin-top: 80px;
+	}
+}
+
+@media screen and (min-width: 1055px) and (max-width: 1116px) {
+	div#forma1elottSV {
+		height: 365px;
+	}
+
+	div#forma1elottSV figure {
+		margin-top: 80px;
+	}
+}
+
+@media screen and (min-width: 851px) and (max-width: 1054px) {
+	div#forma1elottSV {
+		height: 390px;
+	}
+
+	div#forma1elottSV figure {
+		margin-top: 95px;
+	}
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1053px) {
+	div#forma1elottCL {
+		height: 390px;
+	}
+
+	div#forma1elottCL figure {
+		margin-top: 95px;
+	}
+}
+
+@media screen and (min-width: 851px) and (max-width: 1019px) {
+	div#forma1elottCL {
+		height: 415px;
+	}
+
+	div#forma1elottCL figure {
+		margin-top: 110px;
+	}
+}
